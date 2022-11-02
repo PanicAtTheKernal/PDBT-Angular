@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Work+Sans|Noto+Sans+Wancho);
+
+body {
+    background-color: #e1e9f2;
+    font-family: 'Noto Sans Wancho';
+    padding: 0px;
+    margin: 0px;
+    min-height: auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color:  white;
+    box-shadow: 0px 10px 5px #d7dfe8;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.header-button {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: white;
+
+}
+
+
