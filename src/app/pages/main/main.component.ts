@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
+  public isCollapsed: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onSideBarToggle(): void {
+    this.isCollapsed = !this.isCollapsed;
+    console.log(this.isCollapsed)
+  }
 }
