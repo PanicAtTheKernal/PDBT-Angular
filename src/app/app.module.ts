@@ -9,7 +9,6 @@ import { HomeButtonComponent } from './pages/main/home-button/home-button.compon
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SidebarComponent } from './pages/main/sidebar/sidebar.component';
-import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +16,7 @@ import { ButtonComponent } from './components/button/button.component';
     HeaderComponent,
     MainComponent,
     HomeButtonComponent,
-    SidebarComponent,
-    ButtonComponent
+    SidebarComponent
   ],
   imports: [
     BrowserModule,

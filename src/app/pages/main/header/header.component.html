@@ -1,4 +1,10 @@
 <div class="header-container">
     <app-home-button></app-home-button>
-    <app-button text="Click Me" (btnClick)="onSideBarClicked()"></app-button>
+    <fa-icon
+        class="header-button" 
+        [ngStyle]="{'margin-left': '25px'}"
+        (click)="onSideBarClicked()"
+        [icon]="faBars"
+        >
+    </fa-icon>
 </div>
