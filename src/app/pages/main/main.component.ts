@@ -15,6 +15,5 @@ export class MainComponent implements OnInit {
 
   onSideBarToggle(): void {
     this.isCollapsed = !this.isCollapsed;
-    console.log(this.isCollapsed)
   }
 }

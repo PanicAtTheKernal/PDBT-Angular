@@ -18,7 +18,6 @@ export class HeaderComponent implements OnInit {
 
   onSideBarClicked(): void {
     this.sidebarbtn.emit();
-    console.log("Sidebar");
   }
 
 }
