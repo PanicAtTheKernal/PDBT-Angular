@@ -17,6 +17,7 @@
 .home-container > div > h1 {
     margin: auto;
     font-size: 35px;
+    font-family: 'Ubuntu';
 }
 
 .home-container > div > img {
