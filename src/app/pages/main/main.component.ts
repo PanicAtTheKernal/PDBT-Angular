@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
-  public isCollapsed: boolean = false;
+  public isCollapsed: boolean = true;
 
   constructor() { }
 

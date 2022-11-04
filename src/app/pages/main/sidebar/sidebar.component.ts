@@ -6,16 +6,20 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
-  @Input() collapseState:boolean = false;
+  @Input() collapseState:boolean = true;
   private sidebarWidth: string = '330px'; 
 
-  constructor() { }
+  constructor() { 
+    window.addEventListener('resize', () => {
+      this.getWidth();
+    });
+  }
 
   ngOnInit(): void {
   }
 
   getWidth(): string {
-    let sidebarWidth: string = (window.screen.width < 600) ? '100vh' : this.sidebarWidth; 
+    let sidebarWidth: string = (window.innerWidth < 600) ? '100vh' : this.sidebarWidth;   
     return this.collapseState ? '0px' : sidebarWidth;
   }
 }
