@@ -9,6 +9,9 @@ import { HomeButtonComponent } from './pages/main/home-button/home-button.compon
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SidebarComponent } from './pages/main/sidebar/sidebar.component';
+import { NotificationComponent } from './pages/main/notification/notification.component';
+import { UserprofileComponent } from './pages/main/userprofile/userprofile.component';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { SidebarComponent } from './pages/main/sidebar/sidebar.component';
     HeaderComponent,
     MainComponent,
     HomeButtonComponent,
-    SidebarComponent
+    SidebarComponent,
+    NotificationComponent,
+    UserprofileComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

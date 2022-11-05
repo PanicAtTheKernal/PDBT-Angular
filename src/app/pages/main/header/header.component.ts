@@ -1,5 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { faBars, IconDefinition } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faBell, IconDefinition } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -10,6 +10,7 @@ export class HeaderComponent implements OnInit {
   @Output() sidebarbtn = new EventEmitter;
 
   faBars: IconDefinition = faBars;
+  faBell: IconDefinition = faBell;
 
   constructor() { }
 
